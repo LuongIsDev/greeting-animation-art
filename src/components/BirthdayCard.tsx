@@ -16,7 +16,7 @@ const BirthdayCard = ({ isVisible, message, recipientName }: BirthdayCardProps) 
 
   // === ĐƯỜNG DẪN ẢNH CỐ ĐỊNH ===
   // Thay đổi link này thành ảnh bạn muốn hiển thị cố định
-  const fixedPhotoPath = 'z7359700121722_f2c445a6add88968e2523cc98bafeee1.jpg';
+  const fixedPhotoPath = 'ảnh việt.jpg';
 
   // Nếu bạn dùng ảnh local (đặt trong thư mục public):
   // const fixedPhotoPath = '/images/your-birthday-photo.jpg';
