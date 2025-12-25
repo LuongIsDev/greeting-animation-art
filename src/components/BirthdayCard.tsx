@@ -17,7 +17,7 @@ const BirthdayCard = ({ isVisible, message, recipientName }: BirthdayCardProps) 
   // === ĐƯỜNG DẪN ẢNH CỐ ĐỊNH ===
   // Thay đổi link này thành ảnh bạn muốn hiển thị cố định
   // File ảnh nên được đặt trong thư mục public để hoạt động với GitHub Pages
-  const fixedPhotoPath = '/ảnh việt.jpg';
+  const fixedPhotoPath = `${import.meta.env.BASE_URL}ảnh việt.jpg`;
 
   // Ảnh fallback nếu link chính bị lỗi
   const fallbackPhoto = 'https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-4.0.3&auto=format&fit=crop&w=987&q=80';
